@@ -1,0 +1,21 @@
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+
+$blue: #0a4ec3;
+$blueLight: #305ec5;
+$greyDark: #494949;
+$grey: #f3f3f3;
+$greyMedium: #cccccc;
+$creme: #fcfff4;
+
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}

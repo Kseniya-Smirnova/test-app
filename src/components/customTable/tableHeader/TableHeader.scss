@@ -1,0 +1,38 @@
+@import '../../../global';
+
+th {
+  text-align: left;
+  padding: 20px 10px 10px;
+  vertical-align: top;
+  span {
+    color: $blue;
+    cursor: pointer;
+    float: right;
+  }
+}
+
+.image {
+  text-align: center;
+  padding-top: 20px;
+  img {
+    width: 50%;
+    @include md {
+      max-width: 90px;
+    }
+  }
+}
+
+.name {
+  margin-top: 20px;
+  color: $blueLight;
+  padding: 5px 0 10px;
+}
+
+.price {
+  color: $greyDark;
+  font-size: 1rem;
+}
+
+.details {
+  color: $greyMedium;
+}

@@ -1,0 +1,16 @@
+@import '../../global';
+
+.badges {
+  margin: 3px;
+  padding-top: 20px;
+  display: inline-flex;
+  border-top: 1px solid $grey;
+  width: 100%;
+
+  li {
+    img {
+      width: 20px;
+      margin-right: 3px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../global';
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 2px solid $blueLight;
+}
+
+.message {
+  margin: 20px;
+  text-align: center;
+
+  span {
+    color: $blueLight;
+    text-decoration: underline;
+    display: block;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

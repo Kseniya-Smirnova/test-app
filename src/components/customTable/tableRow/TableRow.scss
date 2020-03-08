@@ -1,0 +1,32 @@
+@import '../../../global';
+
+tr {
+  &:nth-child(2) {
+    td {
+      border: none;
+    }
+  }
+
+  &.selected {
+    background-color: $grey;
+  }
+}
+td {
+  text-align: left;
+  border-top: 1px solid $grey;
+  vertical-align: bottom;
+  padding: 5px;
+
+  &:first-child {
+    min-width: 150px;
+    @include sm {
+      min-width: 200px;
+    }
+    @include md {
+      min-width: 300px;
+    }
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
