@@ -24,7 +24,7 @@ const ProductsFilter = (props) => {
     return (
         <>
             <h3>Je selectie</h3>
-            <ul>
+            <ul className = 'filters'>
                 { productsToFilter }
             </ul>
         </>

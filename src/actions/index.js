@@ -1,7 +1,4 @@
-
-function addIdToProduct(products) {
-    return products.map(product => Object.assign({}, product, { id: Math.random().toString(36).substr(2, 9) }));
-}
+import { addIdToProduct } from '../helpers/helper';
 
 function fetchData(url, actions) {
     return dispatch => {

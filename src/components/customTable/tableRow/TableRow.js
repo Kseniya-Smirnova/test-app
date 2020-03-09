@@ -19,7 +19,6 @@ const TableRow = (props) => {
 
 const InfoItem = (props) => {
     const content = props.component && props.component(props.content) || props.content;
-    // const content = props.component || props.children;
     return (
         <td>{ content }</td>
     )

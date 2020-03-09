@@ -12,10 +12,10 @@ const TableContent = (props) => {
         component = { props.itemComponents[key] } />);
 
     return (
-        <tbody>
-        <TableHeader products = {props.products} click = { props.click } filters = { props.filters } />
-        { rowContents }
-        </tbody>
+        <>
+            <TableHeader products = {props.products} click = { props.click } filters = { props.filters } />
+            { rowContents }
+        </>
     )
 };
 

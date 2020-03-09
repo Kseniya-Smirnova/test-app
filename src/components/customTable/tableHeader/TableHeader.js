@@ -14,7 +14,6 @@ const TableHeader = (props) => {
         </th>
     );
     return (
-        //check th before is inside body? refactor a bit
         <tr>
             <th>{props.filters}</th>
             {headerContent}

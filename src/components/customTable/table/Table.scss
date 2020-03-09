@@ -6,6 +6,9 @@
   font-size: 0.8rem;
   margin-bottom: 20px;
 
+  @include md {
+    font-size: 1rem;
+  }
   caption {
     font-size: 1.4rem;
     color: $blue;
