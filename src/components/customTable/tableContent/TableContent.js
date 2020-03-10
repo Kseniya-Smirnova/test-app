@@ -14,7 +14,7 @@ const TableContent = (props) => {
     return (
         <>
             <TableHeader products = {props.products} click = { props.click } filters = { props.filters } />
-            { rowContents }
+            <tbody>{ rowContents }</tbody>
         </>
     )
 };

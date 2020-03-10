@@ -3,7 +3,7 @@ import './Badges.scss';
 
 const Badges = (props) => {
     const iconURLs = props.content.split('|');
-    const iconEls = iconURLs.map((url) => <li><img src={url} alt = 'icon'/></li>);
+    const iconEls = iconURLs.map((url) => <li key = {url}><img src={url} alt = 'icon'/></li>);
     return (
         <ul className = 'badges'>{iconEls}</ul>
     )

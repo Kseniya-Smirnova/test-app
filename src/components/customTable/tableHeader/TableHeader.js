@@ -14,10 +14,12 @@ const TableHeader = (props) => {
         </th>
     );
     return (
-        <tr>
-            <th>{props.filters}</th>
-            {headerContent}
-        </tr>
+        <thead>
+            <tr>
+                <th>{props.filters}</th>
+                {headerContent}
+            </tr>
+        </thead>
     )
 };
 
